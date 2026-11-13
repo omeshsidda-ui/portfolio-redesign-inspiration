@@ -1,0 +1,641 @@
+{
+  "certificationsData": {
+    "Oracle Cloud": [
+      {
+        "title": "Agentic AI Certified Foundations Associate",
+        "img": "/certifications/oracle_agentic_ai_certified.png",
+        "issuer": "Oracle Cloud"
+      },
+      {
+        "title": "Fusion AI Agent Studio Foundations Associate - Rel 1",
+        "img": "/certifications/oracle_fusion_ai_agent_studio.png",
+        "issuer": "Oracle Cloud"
+      },
+      {
+        "title": "Generative AI Professional 2025",
+        "img": "/certifications/oracle_gen_ai_prof_cert.png",
+        "issuer": "Oracle Cloud"
+      },
+      {
+        "title": "OCI Certified AI Foundations Associate",
+        "img": "/certifications/oracle_oci_ai_foundations.png",
+        "issuer": "Oracle Cloud"
+      }
+    ],
+    "Google Cloud": [
+      {
+        "title": "Generative AI Leader Track",
+        "img": "/certifications/google_gen_ai_leader.png",
+        "issuer": "Google Cloud Career Launchpad"
+      }
+    ],
+    "NVIDIA": [
+      {
+        "title": "Fundamentals of Deep Learning",
+        "img": "/certifications/nvidia_deep_learning.png",
+        "issuer": "NVIDIA"
+      }
+    ],
+    "Coursera": [
+      {
+        "title": "Facial Expression Recognition with PyTorch",
+        "img": "/certifications/facial_expression_pytorch.png",
+        "issuer": "Coursera, February 2026"
+      },
+      {
+        "title": "Build a Computer Vision App with Azure Cognitive Services",
+        "img": "/certifications/microsoft_azure_cv_cert.png",
+        "issuer": "Microsoft / Coursera"
+      }
+    ],
+    "Forage Job Simulations": [
+      {
+        "title": "GenAI Powered Data Analytics Job Simulation",
+        "img": "/certifications/tata_data_analytics.png",
+        "issuer": "TATA"
+      },
+      {
+        "title": "Technology Job Simulation",
+        "img": "/certifications/deloitte_job_sim.png",
+        "issuer": "Deloitte"
+      }
+    ],
+    "Professional": [
+      {
+        "title": "Generative AI Mastermind",
+        "img": "/certifications/outskill_genai.png",
+        "issuer": "Outskill"
+      },
+      {
+        "title": "Teaching the AI Fluency Framework",
+        "img": "/certifications/anthropic_fluency_teaching_cert.png",
+        "issuer": "Anthrop\\C"
+      },
+      {
+        "title": "AI Fluency for Students",
+        "img": "/certifications/anthropic_fluency_students.png",
+        "issuer": "Anthrop\\C"
+      }
+    ],
+    "HackerRank": [
+      {
+        "title": "Problem Solving (Intermediate)",
+        "img": "/certifications/hackerrank_problem_solving_intermediate.png",
+        "issuer": "HackerRank"
+      },
+      {
+        "title": "Software Engineer Intern",
+        "img": "/certifications/hackerrank_software_engineer_intern.png",
+        "issuer": "HackerRank"
+      },
+      {
+        "title": "Software Engineer",
+        "img": "/certifications/hackerrank_software_engineer.png",
+        "issuer": "HackerRank"
+      }
+    ],
+    "OpenCV": [
+      {
+        "title": "Vision Language Models (VLM) Bootcamp",
+        "img": "/certifications/opencv_vlm_bootcamp.png",
+        "issuer": "OpenCV University"
+      },
+      {
+        "title": "OpenCV Bootcamp",
+        "img": "/certifications/opencv_bootcamp.png",
+        "issuer": "OpenCV University"
+      }
+    ]
+  },
+  "projects": [
+    {
+      "title": "StakeUp",
+      "category": "Featured",
+      "description": "AI-Powered Accountability Platform",
+      "details": "Led a 5-member team as team lead and full-stack architect.\nBuilt in a 24-hour hackathon sprint.\nArchitected the frontend, backend, database and AI integration.\nShipped ProofIQ image verification, Stake Battles, an AI Smart Planner, a virtual escrow wallet, leaderboards and an analytics dashboard.\nUsed Llama 3.2 90B Vision for AI-powered task verification.\nBuilt a responsive interface with Tailwind CSS and Framer Motion.\n\nAward: 1st Place — Syntax2Code Industry Simulation Hackathon 2026\nAdditional: Earned a 6-month internship offer.",
+      "image": "/projects/stakeup.png",
+      "gallery": [],
+      "tags": [
+        "Next.js",
+        "TypeScript",
+        "FastAPI",
+        "PostgreSQL",
+        "Computer Vision",
+        "Tailwind CSS",
+        "Framer Motion",
+        "Supabase"
+      ],
+      "links": {
+        "github": "https://github.com/SaiDheeraj-19/StakeUp"
+      },
+      "problemStatement": "People often struggle to stay accountable to their personal goals and lose motivation without tangible stakes or impartial verification.",
+      "motivation": "I wanted a gamified, high-stakes setup where AI verifies progress objectively, so no one can cheat and hitting goals becomes competitive and rewarding."
+    },
+    {
+      "title": "HomeProof",
+      "category": "Featured",
+      "description": "AI-Powered Property Inspection & Risk Assessment Platform",
+      "details": "AI-powered property evaluation platform.\nYOLOv8 detects structural anomalies, maintenance needs and safety hazards.\nOpenAI and Gemini generate property insights, inspection narratives and remediation plans.\nSarvam AI adds multilingual, voice-driven interaction.\nGroq provides low-latency inference.\nFastAPI and PostgreSQL backend, with Supabase for authentication and secure asset storage.\nCross-platform React Native app with AI-assisted documentation and media ingestion.",
+      "image": "/projects/homeproof.png",
+      "gallery": [],
+      "tags": [
+        "React Native",
+        "FastAPI",
+        "PostgreSQL",
+        "YOLOv8",
+        "OpenAI",
+        "Gemini",
+        "Groq",
+        "Sarvam AI",
+        "Supabase"
+      ],
+      "links": {
+        "github": "https://github.com/SaiDheeraj-19/HomeProof-APP"
+      },
+      "problemStatement": "Property inspections are manual, error-prone and slow to turn into accurate structural and safety reports.",
+      "motivation": "I used computer vision (YOLOv8) and generative AI to automatically spot structural anomalies, cutting inspection time and standardizing safety assessments."
+    },
+    {
+      "title": "Sonic Bridge",
+      "category": "Featured",
+      "description": "Real-Time Multilingual Translation Platform",
+      "details": "Room-based real-time translation for live lectures and professional sessions.\nOne speaker streams translated audio to many listeners at once.\nSpeech-to-text → neural translation → streaming text-to-speech pipeline.\nUnder 6 seconds end to end.\nBinary PCM audio streamed over WebSockets.\nWebRTC noise suppression, voice activity detection and speaker verification.",
+      "image": "/projects/sonicbridge.png",
+      "gallery": [],
+      "tags": [
+        "React 19",
+        "Node.js",
+        "WebSockets",
+        "AI Speech Pipeline"
+      ],
+      "links": {
+        "github": "https://github.com/SaiDheeraj-19/SonicBridge"
+      },
+      "problemStatement": "Language barriers in live lectures and professional sessions make it hard for non-native speakers to follow and learn.",
+      "motivation": "I built it to deliver real-time neural translation in under 6 seconds over WebSockets, so one speaker can reach a multilingual audience live."
+    },
+    {
+      "title": "Smart Attendance System",
+      "category": "Additional",
+      "description": "3-Factor Secure Academic Platform",
+      "details": "Fraud-resistant attendance with three checks: face recognition, GPS geofencing and session-specific QR codes.\nReal-time location validation restricts attendance to authorized classrooms.\nJWT authentication and bcrypt password hashing.\nRole-based access for students, faculty and admins.\nNext.js frontend with a Node.js and MongoDB backend.",
+      "image": "/uploads/1768284766473_Screenshot_2026-01-13_at_11.38.21_AM.png",
+      "gallery": [
+        "/uploads/1768285226046_Screenshot_2026-01-13_at_11.38.21_AM.png",
+        "/uploads/1768285229986_Screenshot_2026-01-13_at_11.47.25_AM.png",
+        "/uploads/1768285234461_Screenshot_2026-01-13_at_11.47.36_AM.png",
+        "/uploads/1768285237685_Screenshot_2026-01-13_at_11.47.47_AM.png",
+        "/uploads/1768285750802_Screenshot_2026-01-13_at_11.58.05_AM.png",
+        "/uploads/1768285762618_Screenshot_2026-01-13_at_11.55.30_AM.png",
+        "/uploads/1768285766551_Screenshot_2026-01-13_at_11.55.42_AM.png",
+        "/uploads/1768285769753_Screenshot_2026-01-13_at_11.55.49_AM.png",
+        "/uploads/1768285773467_Screenshot_2026-01-13_at_11.56.24_AM.png",
+        "/uploads/1768285796209_Screenshot_2026-01-13_at_11.57.40_AM.png",
+        "/uploads/1768285801088_Screenshot_2026-01-13_at_11.57.46_AM.png",
+        "/uploads/1768285805094_Screenshot_2026-01-13_at_11.57.53_AM.png"
+      ],
+      "tags": [
+        "Next.js",
+        "Node.js",
+        "MongoDB",
+        "Face Recognition",
+        "GPS Geofencing"
+      ],
+      "links": {
+        "github": "https://github.com/SaiDheeraj-19/Solvra-SmartAttendance"
+      },
+      "problemStatement": "Classroom attendance is easy to fake through proxies, buddy punching and location spoofing.",
+      "motivation": "I combined facial recognition, GPS geofencing and session-specific QR codes into one 3-factor check that makes attendance fraud impractical."
+    },
+    {
+      "title": "ClassSync",
+      "category": "Additional",
+      "description": "Real-Time Academic Management Platform",
+      "details": "Centralized student management system.\nLive timetable with real-time updates.\nPolls with voter tracking and CSV export.\nNotices, announcements and automated email notifications.\nJWT authentication with role-based access for admins and students.",
+      "image": "/projects/classsync/student_portal.png",
+      "gallery": [
+        "/projects/classsync/loading.png",
+        "/projects/classsync/login.png",
+        "/projects/classsync/student_portal.png",
+        "/projects/classsync/admin_attendance.png"
+      ],
+      "tags": [
+        "React 19",
+        "Node.js",
+        "MongoDB",
+        "JWT"
+      ],
+      "links": {
+        "github": "https://github.com/SaiDheeraj-19/-CLASSSYNC"
+      },
+      "problemStatement": "Academic management tools are fragmented and static, with no real-time sync between students, faculty and daily schedules.",
+      "motivation": "I wanted one platform with live timetables, real-time polling and automated notifications to simplify campus communication and administration."
+    },
+    {
+      "title": "Wave",
+      "category": "Additional",
+      "description": "Real-Time Social Music Platform",
+      "details": "Synchronized one-to-many music playback over WebSocket sessions.\nCustom crossfade engine built on the Web Audio API.\nSecure room-based joining with JWT authentication.\nReal-time state synchronization across listeners.",
+      "image": "/projects/wave.png",
+      "gallery": [],
+      "tags": [
+        "Next.js",
+        "TypeScript",
+        "WebSockets",
+        "Web Audio API",
+        "JWT"
+      ],
+      "links": {
+        "github": "https://github.com/SaiDheeraj-19/Wave"
+      },
+      "problemStatement": "Listening to music with friends online suffers from sync drift, latency and clunky third-party bots.",
+      "motivation": "I built a custom Web Audio API and WebSocket architecture so everyone in a room hears the same moment of the same song."
+    },
+    {
+      "title": "Fix It",
+      "category": "Additional",
+      "description": "Premium POS & Repair Management System",
+      "details": "Full-stack POS and repair lifecycle system.\nRepair workflow: Intake → In Progress → Delivered.\nEncrypted storage for device PINs and patterns.\nAutomated PDF invoices and real-time revenue dashboards.\nRole-based access for admin and staff.\nPostgreSQL with Prisma ORM.",
+      "image": "/fixit_home.png",
+      "gallery": [
+        "/fixit_home.png",
+        "/fixit_store.png",
+        "/fixit_service.png",
+        "/fixit_login.png"
+      ],
+      "tags": [
+        "Next.js 14",
+        "TypeScript",
+        "PostgreSQL",
+        "Prisma"
+      ],
+      "links": {
+        "github": "https://github.com/SaiDheeraj-19/fix-it-possystem"
+      },
+      "problemStatement": "Electronics repair shops juggle repair tracking, customer device credentials and invoicing across separate tools.",
+      "motivation": "I built one end-to-end POS and repair system for small shops, with encrypted credential storage, automated invoices and live revenue dashboards."
+    },
+    {
+      "title": "Aura",
+      "category": "Additional",
+      "description": "AI Speech-to-Text & Multilingual Translation Platform",
+      "details": "Converts spoken audio into text.\nTranslates speech into South Indian languages.\nBuilt the speech ingestion, transcription and translation pipelines.\nDesigned for people who aren't fluent in English.",
+      "image": "/uploads/1768331606398_Gemini_Generated_Image_ec9qsjec9qsjec9q.jpeg",
+      "gallery": [
+        "/projects/aura/aura-preview-1.png",
+        "/projects/aura/aura-preview-2.png",
+        "/projects/aura/aura-preview-3.png"
+      ],
+      "tags": [
+        "Streamlit",
+        "AI Speech Models",
+        "Translation Pipelines"
+      ],
+      "links": {
+        "github": "https://github.com/SaiDheeraj-19/Aura"
+      },
+      "problemStatement": "Good real-time speech-to-text and translation tools rarely support South Indian languages well.",
+      "motivation": "I wanted people who aren't fluent in English to follow and share spoken content in their own regional language."
+    }
+  ],
+  "profile": {
+    "idCardConfig": {
+      "scale": 1,
+      "x": 0,
+      "y": 0
+    },
+    "idCardPhoto": "/profile.jpg",
+    "aboutMePhoto": "/about_me_photo.jpg"
+  },
+  "experience": [
+    {
+      "company": "KAIRO TECHNOLOGIES",
+      "role": "Founder & CEO",
+      "duration": "October 2026 – Present",
+      "workMode": "Founder / Leadership",
+      "product": "Kairo Cloud OS · Kairo Orbit · PAIR",
+      "website": "https://thekairo.tech",
+      "productWebsite": "https://thekairo.dev",
+      "officialEmail": "founder@thekairo.dev",
+      "logo": "/kairo/kairo-technologies-dark.png",
+      "banner": "/kairo/kairo-technologies-dark.png",
+      "description": "Leading company strategy, product architecture and engineering at Kairo Technologies, maker of Kairo Cloud OS, Kairo Orbit and PAIR.",
+      "responsibilities": [
+        "Founded Kairo Technologies with the mission that what someone can learn, build, or ship should never be constrained by the machine they can afford.",
+        "Architected KAIRO Cloud OS end to end: a browser-native OS with window management, a PTY terminal emulator, a code editor and persistent cloud workspaces.",
+        "Engineered distributed compute infrastructure that moves heavy execution (Docker/Kubernetes containers, remote GPU runtimes) off the user's browser.",
+        "Designed a monorepo of 12 modular packages and 35+ API endpoints, with an Express/Node.js control plane and a Prisma/PostgreSQL/Redis state store.",
+        "Integrated AI assistants that act visibly on the desktop, with automated workspace provisioning and low-latency WebSocket streaming.",
+        "Launched the company site (thekairo.tech) and three products: Kairo Cloud OS (thekairo.dev); Kairo Orbit (orbit.thekairo.dev), which lets you use your Mac from iPhone or Android and hand tasks to an AI operator; and PAIR (pair.thekairo.dev), a pet matchmaking and compatibility platform."
+      ],
+      "skills": [
+        "Executive Leadership",
+        "Cloud Operating Systems",
+        "Distributed Infrastructure",
+        "System Architecture",
+        "Docker & Kubernetes",
+        "WebSockets & PTY",
+        "Next.js 14 / React 19",
+        "Node.js / Express",
+        "PostgreSQL & Redis",
+        "AI Infrastructure"
+      ],
+      "recommendation": {
+        "quote": "I started Kairo Technologies because the computer you can afford should not decide what you are able to build. KAIRO is our first product, not the whole of what we are here to do. We exist to build software, AI, and infrastructure that put powerful technology in more hands.",
+        "author": "R. Sai Dheeraj",
+        "title": "Founder & CEO, Kairo Technologies",
+        "letterUrl": "https://thekairo.tech/team",
+        "actionText": "Founder's Philosophy"
+      }
+    },
+    {
+      "company": "VENSORA AI",
+      "role": "Consultancy Project Lead",
+      "duration": "July 2026 – September 2026",
+      "workMode": "Remote",
+      "product": "Enterprise AI Customer Connect Platform",
+      "description": "Architected and built an Enterprise AI Customer Connect Platform that gives logistics companies AI-powered customer support over voice calls.",
+      "responsibilities": [
+        "Designed a scalable modular-monolith backend with FastAPI, PostgreSQL and Redis.",
+        "Built a conversational voice agent with LangGraph, Groq and Qdrant (BGE-M3 embeddings).",
+        "Implemented real-time speech pipelines with Faster Whisper (STT), Piper TTS, and Asterisk (SIP/RTP).",
+        "Built the frontend with Next.js 15, React 19 and Tailwind CSS.",
+        "Containerized the stack with Docker Compose and added monitoring with Prometheus and Grafana."
+      ],
+      "skills": [
+        "Voice AI / Speech Tech",
+        "Agentic AI (LangGraph)",
+        "System Architecture",
+        "FastAPI / Python",
+        "Generative AI"
+      ],
+      "recommendation": {
+        "quote": "We appreciate his efforts in understanding the project requirements, contributing to the development and execution of the project work, and working collaboratively towards achieving the intended project objectives. His willingness to learn, take responsibility, and work consistently throughout the engagement was commendable. The completion of this project reflects his dedication to applying academic knowledge to a practical industry-oriented problem.",
+        "author": "Sujan Thapa",
+        "title": "Founder & CEO, Vensora AI Innovations",
+        "letterUrl": "/certifications/vensora_letter.pdf"
+      }
+    },
+    {
+      "company": "SYNC AI",
+      "role": "AI Engineer",
+      "duration": "August 2026 – Present",
+      "workMode": "Remote",
+      "product": "Core AI Infrastructure & Intelligent Systems",
+      "description": "Building intelligent systems and scalable AI pipelines for Sync AI's core infrastructure.",
+      "responsibilities": [
+        "Designing scalable AI architectures.",
+        "Optimizing AI pipelines for production workloads.",
+        "Integrating advanced AI capabilities into core infrastructure."
+      ],
+      "skills": [
+        "AI Engineering",
+        "System Architecture",
+        "Generative AI",
+        "Scalable Pipelines",
+        "AI Infrastructure"
+      ]
+    },
+    {
+      "company": "RMJ IT SOLUTIONS",
+      "role": "Team Lead Intern",
+      "duration": "July 2026 – Present",
+      "workMode": "On-site",
+      "product": "MicroIntern — AI-Powered Skill Assessment & Recruitment Platform",
+      "description": "Technical lead for MicroIntern, owning planning, system architecture, AI integration, backend, database design and DevOps, and directing the development cohort.",
+      "responsibilities": [
+        "Leading the MicroIntern project as technical lead, from planning through delivery, and directing the development cohort.",
+        "Architecting the end-to-end system with a focus on scalability and security.",
+        "Integrating AI pipelines for automated resume parsing, assessment generation and objective candidate scoring.",
+        "Leading server-side development and API integrations.",
+        "Designing the relational database schemas.",
+        "Running automated DevOps pipelines with continuous testing and production deployments."
+      ],
+      "skills": [
+        "Technical Leadership",
+        "System Architecture",
+        "AI Engineering",
+        "Backend Engineering",
+        "Database Architecture",
+        "API Integration",
+        "DevOps",
+        "Security",
+        "Recruitment Technology"
+      ]
+    },
+    {
+      "company": "ROOTEDLABS",
+      "role": "Web Development Intern",
+      "duration": "May 2026 – July 2026",
+      "workMode": "Remote",
+      "website": "www.rootedel.com",
+      "status": "Completed",
+      "description": "Built the RootedLabs website and was the primary developer on its AI-powered learning platform.",
+      "responsibilities": [
+        "Independently designed, built and deployed the official RootedLabs website from scratch as a responsive, production-ready web app.",
+        "Served as the primary developer for the RootedLabs AI-powered learning platform.",
+        "Built features for students, teachers, parents and school administrators.",
+        "Turned product and educational requirements into scalable, maintainable software.",
+        "Built reusable components, optimized performance and improved the experience on desktop and mobile.",
+        "Worked with Git-based version control, testing, documentation and clean-code practices."
+      ],
+      "skills": [
+        "Web Development",
+        "AI-Powered Education",
+        "EdTech",
+        "Responsive Development",
+        "Product Engineering",
+        "Component Architecture",
+        "Performance Optimization"
+      ],
+      "recommendation": {
+        "quote": "During his internship, Sai demonstrated strong commitment, technical interest, and a responsible approach to assigned work. He consistently showed initiative, ownership, a willingness to learn, and a collaborative mindset. His contributions to web development and education technology solutions reflected practical engineering discipline and a focus on user needs.",
+        "author": "Sulbha Shantwan",
+        "title": "Co-Founder & Lead Pedagogy",
+        "letterUrl": "/certifications/rootedlabs_internship_certificate.pdf"
+      }
+    }
+  ],
+  "hackathons": [
+    {
+      "title": "Syntax2Code Industry Simulation Hackathon 2026",
+      "achievement": "1st Place 🥇",
+      "institution": "G. Pullaiah College of Engineering and Technology (GPCET)",
+      "date": "July 10, 2026",
+      "role": "Team Lead & Architect",
+      "team": "5-person team",
+      "project": "StakeUp — AI-Powered Accountability Platform",
+      "timeframe": "24-hour sprint",
+      "description": "Won 1st place leading a 5-member team as team lead and full-stack architect, and earned a 6-month internship offer for our technical execution, innovation and presentation.",
+      "contributions": [
+        "Designed the complete full-stack architecture.",
+        "Directed implementation of the interface.",
+        "Oversaw server-side logic and AI modules.",
+        "Engineered ProofIQ automated verification.",
+        "Implemented competitive Stake Battles.",
+        "Designed secure virtual escrow systems.",
+        "Built real-time analytical dashboards.",
+        "Integrated the frontend, backend, database, and AI services."
+      ],
+      "technologies": [
+        "Next.js",
+        "TypeScript",
+        "FastAPI",
+        "PostgreSQL",
+        "Computer Vision",
+        "Tailwind CSS",
+        "Framer Motion",
+        "Supabase"
+      ]
+    },
+    {
+      "title": "TechXplore 2026",
+      "achievement": "2nd Prize 🥈",
+      "institution": "G. Pullaiah College of Engineering and Technology (GPCET)",
+      "date": "March 31, 2026",
+      "description": "Designed and built a fully working software prototype solo, from architecture to demo, within the hackathon's time limit.",
+      "contributions": [
+        "Built the full stack solo.",
+        "Presented a working prototype.",
+        "Solved problems quickly under competitive pressure."
+      ],
+      "technologies": []
+    },
+    {
+      "title": "NEXORA Hackathon 2026",
+      "achievement": "3rd Prize 🥉",
+      "institution": "Ashoka Women's Engineering College",
+      "date": "March 25, 2026",
+      "description": "Built a working software prototype solo within the event's time limit.",
+      "contributions": [
+        "Built an end-to-end working prototype.",
+        "Tested and validated it before the deadline."
+      ],
+      "technologies": []
+    }
+  ],
+  "openSource": [
+    {
+      "project": "Laya AI",
+      "role": "Contributor",
+      "duration": "September 2026",
+      "description": "Fast, non-autoregressive System 1 LLM decision engine",
+      "details": "Laya is a fast, non-autoregressive System 1 decision engine that uses sub-billion-parameter models with calibrated probabilities to route tasks and detect intent.",
+      "skills": [
+        "Open Source Contribution",
+        "FastAPI",
+        "NLP / Regex",
+        "LLM Evaluation",
+        "Python"
+      ],
+      "tags": [
+        "Python",
+        "FastAPI",
+        "LLM Routing",
+        "NLP",
+        "Regex",
+        "CI/CD"
+      ],
+      "links": {
+        "github": "https://github.com/NandhaKishorM/laya"
+      },
+      "contributions": [
+        {
+          "title": "Local CLI and FastAPI Demo Server",
+          "issue": "Issues #125, #119, #114",
+          "whatIDid": "Built a production-ready FastAPI server for testing the decision engine's routing locally. Removed the global thread lock to allow concurrent requests, added Python __main__ entry points for CLI use, added a [server] dependency group to pyproject.toml and covered it all with GitHub Actions CI.",
+          "whyIDidIt": "Laya had no dedicated server for testing routing pipelines, so users relied on slow, synchronous local scripts, and a global thread lock blocked concurrent requests.",
+          "whyIChooseThis": "FastAPI gives an async-first, highly concurrent backend, so engineers can test the decision engine quickly before deploying.",
+          "commits": [
+            {
+              "id": "da25010",
+              "message": "feat: add CLI and FastAPI demo server"
+            },
+            {
+              "id": "e933931",
+              "message": "fix: address Copilot code review feedback"
+            }
+          ]
+        },
+        {
+          "title": "Cross-Lingual Calibration",
+          "issue": "PR #127, #258",
+          "whatIDid": "Added JSON-based, per-language temperature calibration to the PyTorch inference pipeline (laya.load). Wrote a script that fits maximum-likelihood temperatures on the MASSIVE validation splits to reduce Expected Calibration Error (ECE). Fixed a bug where language-specific parameters bypassed the temperature clamping bounds, and extended the pytest suite (test_laya_eval.py) to verify the temperature routing logic.",
+          "whyIDidIt": "The evaluation head was overconfident on non-English languages such as Chinese, which made cross-lingual confidence scores unreliable.",
+          "whyIChooseThis": "Fitting temperatures per language and applying them inside the inference pipeline fixes the miscalibration at its source, giving consistent confidence scores across all supported languages.",
+          "commits": [
+            {
+              "id": "PR #127, #258",
+              "message": "feat: add lang_temperatures and fix shadowing bug"
+            }
+          ]
+        },
+        {
+          "title": "Email Parsing & Disclaimer Sanitization",
+          "issue": "Issue #115",
+          "whatIDid": "Fixed a bug where clean_email_body silently deleted unpunctuated user requests that shared a paragraph with a corporate disclaimer. Added a regex lookahead (_FRESH_NEWLINE = re.compile(r\"\\n\\s*(?=[A-Z])\")) that separates wrapped boilerplate from the actual request.",
+          "whyIDidIt": "Corporate emails often append disclaimers directly to the user's message. The parser was throwing that text away, causing many missed intent detections.",
+          "whyIChooseThis": "A regex lookahead runs in linear time with no NLP overhead, so it fixes the data loss without affecting the engine's sub-millisecond latency.",
+          "commits": [
+            {
+              "id": "28159ef",
+              "message": "fix(email): recover the request when a disclaimer shares its paragraph"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "project": "vLLM",
+      "role": "Contributor",
+      "duration": "September 2026",
+      "description": "High-throughput and memory-efficient LLM serving engine",
+      "details": "vLLM is a fast, easy-to-use library for LLM inference and serving, known for its high throughput and memory efficiency through PagedAttention.",
+      "skills": [
+        "Open Source Contribution",
+        "High-Performance Computing",
+        "Machine Learning Compilers",
+        "Distributed Systems",
+        "PyTorch"
+      ],
+      "tags": [
+        "Python",
+        "PyTorch",
+        "torch.compile",
+        "Distributed Systems",
+        "LLM Serving"
+      ],
+      "links": {
+        "github": "https://github.com/vllm-project/vllm"
+      },
+      "contributions": [
+        {
+          "title": "Tensor Parallel (TP) Mixture of Experts (MoE) Optimization",
+          "issue": "PR #54611",
+          "whatIDid": "Optimized collective operations for Mixture of Experts (MoE) models running with Tensor Parallelism (TP), using torch.compile.",
+          "whyIDidIt": "Under high concurrency, MoE models saw latency spikes from unoptimized collective operations across tensor-parallel shards.",
+          "whyIChooseThis": "torch.compile enables kernel fusion and graph-level optimization, improving throughput on NVIDIA GPUs.",
+          "commits": [
+            {
+              "id": "PR #54611",
+              "message": "Optimized collectives in Tensor Parallel (TP) MoE using torch.compile"
+            }
+          ]
+        },
+        {
+          "title": "Hybrid Model KV Cache Sizing Fix",
+          "issue": "PR #54613",
+          "whatIDid": "Fixed the KV cache group sizing logic for arbitrary hybrid models so they stay within memory during inference.",
+          "whyIDidIt": "Hybrid model architectures were hitting out-of-memory (OOM) errors because the engine miscalculated their KV cache block requirements.",
+          "whyIChooseThis": "I refactored the sizing logic to read each model's head configuration at runtime, so new hybrid architectures are sized correctly too.",
+          "commits": [
+            {
+              "id": "PR #54613",
+              "message": "Fixed KV cache group sizing logic for arbitrary hybrid models"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
